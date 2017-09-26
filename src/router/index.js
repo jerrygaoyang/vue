@@ -1,26 +1,32 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '../components/Index.vue'
+import Index from '../containers/Index.vue'
 import Register from '../containers/Register.vue'
 import Login from '../containers/Login.vue'
+import ResetPassword from '../containers/ResetPassword.vue'
 
 Vue.use(Router);
 
 export default new Router({
   routes: [{
       path: '/',
-      name: 'index',
+      name: 'Index',
       component: Index
     },
     {
       path: '/login',
-      name: 'login',
+      name: 'Login',
       component: Login
     },
     {
       path: '/register',
-      name: 'register',
+      name: 'Register',
       component: Register
+    },
+    {
+      path: '/reset_password',
+      name: 'ResetPassword',
+      component: ResetPassword
     }
   ]
 })

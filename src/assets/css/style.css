@@ -35,6 +35,6 @@ html, body {
   outline: none;
 }
 
-#login, #register {
+.login, .register {
   margin-top: 50px
 }
