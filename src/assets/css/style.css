@@ -1,0 +1,40 @@
+html, body {
+  background-color: #f7f7f7;
+}
+
+.panel {
+  box-shadow: 0 5px 10px #ddd;
+  border: none;
+}
+
+.panel-default>.panel-heading {
+  background-color: #fff;
+  height: 50px;
+  padding-top: 15px;
+  border-bottom: 1px solid #f4645f;
+}
+
+.panel-default>.panel-footer {
+  background-color: #fff;
+  height: 50px;
+  padding-top: 15px;
+  border-top: 1px solid #f4645f;
+}
+
+.btn {
+  outline: none;
+}
+
+.btn-m {
+  background-color: #f4645f;
+  color: #fff;
+}
+
+.btn-m:hover, .btn-m:focus {
+  color: #fff;
+  outline: none;
+}
+
+#login, #register {
+  margin-top: 50px
+}
