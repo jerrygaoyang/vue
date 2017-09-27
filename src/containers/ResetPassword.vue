@@ -1,6 +1,4 @@
 <template lang="html">
-  <div>
-    <my-header></my-header>
     <div class="container register">
       <div class="row">
         <div class="col-md-4 col-md-offset-4 col-xs-12">
@@ -31,16 +29,11 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
-import Header from '../components/Header.vue'
 export default {
-  name: 'ResetPassword',
-  components: {
-    'my-header': Header
-  }
+  name: 'ResetPassword'
 }
 </script>
 

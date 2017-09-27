@@ -6,6 +6,7 @@ import $ from './assets/js/jquery-1.12.3.min'
 import './assets/css/bootstrap.min.css'
 import './assets/js/bootstrap.min'
 import './assets/css/style.css'
+import './assets/js/app.js'
 
 
 Vue.config.productionTip = false;

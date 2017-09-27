@@ -1,29 +1,24 @@
 <template lang="html">
-  <div>
-    <my-header></my-header>
-    <div class="container index">
-      <div class="row">
-        <div class="col-md-12 col-xs-12">
-          <h1>Hello World</h1>
-        </div>
-      </div>
+  <div class="container index">
+    <div class="row">
+      <index-left></index-left>
+      <index-right></index-right>
     </div>
   </div>
 </template>
 
 <script>
-import Header from '../components/Header.vue'
+import IndexRight from '../components/IndexRight.vue'
+import IndexLeft from '../components/IndexLeft.vue'
 export default {
   name: 'Index',
   components: {
-    'my-header': Header
+    'index-right': IndexRight,
+    'index-left': IndexLeft
   }
 }
 </script>
 
 <style lang="css" scoped="">
-.index{
-  text-align: center;
-  margin-top: 200px
-}
+
 </style>

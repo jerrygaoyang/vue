@@ -2,8 +2,13 @@ html, body {
   background-color: #f7f7f7;
 }
 
+a {
+  text-decoration: none ! important;
+  color: #888888;
+}
+
 .panel {
-  box-shadow: 0 5px 10px #ddd;
+  box-shadow: 0 3px 6px #ddd;
   border: none;
 }
 
@@ -37,4 +42,62 @@ html, body {
 
 .login, .register {
   margin-top: 50px
+}
+
+.content-right .panel .panel-body li {
+  padding-bottom: 10px;
+}
+
+.content-right .panel .panel-body li:last-child {
+  padding-bottom: 0;
+}
+
+.content-left>.col-md-12 {
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px #dddddd;
+  padding: 0;
+}
+
+.content-left-type {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #f4645f;
+}
+
+.content-left-type>li {
+  padding: 15px;
+}
+
+.content-left .list-group {
+  margin-bottom: 0;
+}
+
+.content-left .list-group li {
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.content-left .list-group li:first-child{
+  border-top: none;
+}
+
+.content-left .list-group li:hover{
+  background-color: #f7f7f7;
+}
+
+.content-left .list-group li img {
+  width: 40px;
+  border: 1px solid #ddd;
+}
+
+.content-left .list-group li .pull-right {
+  height: 40px;
+  line-height: 40px;
+}
+
+.content-left .list-group li .pull-right>span {
+  padding: 5px;
+  color: #888888;
+  cursor: pointer;
 }
