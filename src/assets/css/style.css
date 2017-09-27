@@ -8,18 +8,19 @@ a {
 }
 
 .panel {
-  box-shadow: 0 3px 6px #ddd;
+  box-shadow: 0 2px 5px #ddd;
   border: none;
+  border-radius: 0;
 }
 
-.panel-default>.panel-heading {
+.content-right .panel-default>.panel-heading, .register .panel-default>.panel-heading, .login .panel-default>.panel-heading {
   background-color: #fff;
   height: 50px;
   padding-top: 15px;
   border-bottom: 1px solid #f4645f;
 }
 
-.panel-default>.panel-footer {
+.content-right .panel-default>.panel-footer, .register .panel-default>.panel-footer, .login .panel-default>.panel-footer {
   background-color: #fff;
   height: 50px;
   padding-top: 15px;
@@ -53,51 +54,5 @@ a {
 }
 
 .content-left>.col-md-12 {
-  background-color: #ffffff;
-  box-shadow: 0 3px 6px #dddddd;
   padding: 0;
-}
-
-.content-left-type {
-  padding: 0;
-  margin: 0;
-  border-bottom: 1px solid #f4645f;
-}
-
-.content-left-type>li {
-  padding: 15px;
-}
-
-.content-left .list-group {
-  margin-bottom: 0;
-}
-
-.content-left .list-group li {
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-}
-
-.content-left .list-group li:first-child{
-  border-top: none;
-}
-
-.content-left .list-group li:hover{
-  background-color: #f7f7f7;
-}
-
-.content-left .list-group li img {
-  width: 40px;
-  border: 1px solid #ddd;
-}
-
-.content-left .list-group li .pull-right {
-  height: 40px;
-  line-height: 40px;
-}
-
-.content-left .list-group li .pull-right>span {
-  padding: 5px;
-  color: #888888;
-  cursor: pointer;
 }

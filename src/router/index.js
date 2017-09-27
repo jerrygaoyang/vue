@@ -4,6 +4,7 @@ import Index from '../containers/Index.vue'
 import Register from '../containers/Register.vue'
 import Login from '../containers/Login.vue'
 import ResetPassword from '../containers/ResetPassword.vue'
+import Card from '../containers/Card.vue'
 
 Vue.use(Router);
 
@@ -27,6 +28,11 @@ export default new Router({
       path: '/reset_password',
       name: 'ResetPassword',
       component: ResetPassword
+    },
+    {
+      path: '/card',
+      name: 'Card',
+      component: Card
     }
   ]
 })
