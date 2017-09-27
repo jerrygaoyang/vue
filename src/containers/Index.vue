@@ -15,6 +15,9 @@ export default {
   components: {
     'index-right': IndexRight,
     'index-left': IndexLeft
+  },
+  mounted(){
+    $('[data-toggle="tooltip"]').tooltip()
   }
 }
 </script>
